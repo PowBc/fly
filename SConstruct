@@ -23,7 +23,7 @@ lib_path = [
 
 env.Replace(LIBS=libs, LIBPATH=lib_path)
 Export("env")
-fly = SConscript("src/fly/SConscript", variant_dir="build/fly", duplicate=0)
+fly = SConscript("src/SConscript", variant_dir="build/fly", duplicate=0)
 env.Install("build/bin", fly)
 
 env.Append(LIBS=get_static_library_name(fly))

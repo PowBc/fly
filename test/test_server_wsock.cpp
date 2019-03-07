@@ -22,9 +22,9 @@
 #include <unistd.h>
 #include <unordered_map>
 #include <iostream>
-#include "fly/init.hpp"
-#include "fly/net/server.hpp"
-#include "fly/base/logger.hpp"
+#include "init.hpp"
+#include "net/server.hpp"
+#include "base/logger.hpp"
 
 using namespace std::placeholders;
 using fly::net::Wsock;

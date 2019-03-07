@@ -20,9 +20,9 @@
  * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
 
 #include <unistd.h>
-#include "fly/init.hpp"
-#include "fly/net/client.hpp"
-#include "fly/base/logger.hpp"
+#include "init.hpp"
+#include "net/client.hpp"
+#include "base/logger.hpp"
 
 using namespace std::placeholders;
 using fly::net::Json;
